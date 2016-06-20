@@ -1,0 +1,29 @@
+
+.main {
+	background: grey;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.Golova {
+	background: red;
+	font-size: 2.5em;
+
+}
+
+.article {
+	background: green;
+	width: 60%;
+	
+
+}
+
+img {
+	float: right;
+	width: 300px;
+
+}
+
+.footer {
+	background: yellow;
+}
