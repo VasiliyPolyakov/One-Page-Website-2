@@ -56,7 +56,7 @@ body {
 /* header */
 /* outline: 1px solid red; - задает контур для блока */
 
-.conteiner {
+.conteinar {
 	width: 67.14%;
 	margin: 0 auto;
 	padding-top: 50px;
@@ -183,7 +183,7 @@ body {
 
 }
 
-.portfolio-conteiner {
+.portfolio-conteinar {
 	width: 67.14%;
 	margin: 0 auto;
 	text-align: center;
@@ -245,6 +245,10 @@ body {
 
  }
 
+ .about-header {
+ 	padding-bottom: 80px;
+ }
+
 /* about content 1 */ 
 
 .about-content__text1 {
@@ -281,7 +285,24 @@ body {
 
 .about-content__img2 {
 	width: 30%;
+}
 
+.about-content__img1:after {	
+	content: ''; /* делаем линию*/ 
+	display: block;
+	margin: 0 auto; /* текст выравнивается по центру */ 
+	height: 94px;
+	width: 3px;
+	background: #f1f1f1;
+}
+
+.about-content__img2:after {	
+	content: ''; /* делаем линию*/ 
+	display: block;
+	margin: 0 auto; /* текст выравнивается по центру */ 
+	height: 94px;
+	width: 3px;
+	background: #f1f1f1;
 }
 
 .about-content__text2 h3 {
@@ -295,7 +316,115 @@ body {
 	font-size: 15px;
 }
 
+.about-content__img {
+	padding-bottom: 120px;
+}
 
+/* team */ 
 
+.team {
+	background: #f7f7f7;
 
+}
 
+.team-wrap {
+	width: 67.14%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 120px;
+}
+
+.team-item__img img {
+	height: 220px;
+	width: 220px;
+	padding-bottom: 25px;
+}
+
+.team-conteinar {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-around;
+}
+
+.team-item__name {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* устанавливаем несколько шрифтов*/
+	font-size: 18px;
+	color: #050000;
+}
+
+.team-item p {
+	color: #777;
+	font-size: 15px;
+	padding-top: 12px;
+}
+
+.team-social__img img {
+	padding-right: 4px;
+	padding-bottom: 50px;
+}
+
+.team-bottom {
+	display: inline-block;
+	color: #777;
+	font-size: 15px;
+	padding-top: 12px;
+	padding-bottom: 120px;
+}
+
+/* team */ 
+
+.logotype-wrap {
+	width: 67.14%;
+	margin: 0 auto;
+	padding: 60px 0 60px 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-around;
+}
+
+/* contact */ 
+
+.contact-wrap {
+	width: 100%;
+	background: url(../img/contact.png) no-repeat center bottom;
+	height: 676px;
+}
+
+.contact-conteinar {
+	width: 67.14%;
+	margin: 0 auto;
+	
+}
+
+.contact-header {
+	text-align: center;
+	padding-top: 110px;
+}
+
+.contact-header__title {
+	text-transform: uppercase;;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* устанавливаем несколько шрифтов*/
+	font-size: 40px;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+
+}
+
+.contact-header__citation {
+	font-size: 15px;
+	color: #777;
+	margin-bottom: 22px;
+
+}
+
+.contacts-form {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+}
