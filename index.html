@@ -9,7 +9,7 @@
 <body>
 
     <header class="wrapper">
-        <div class="conteinar">
+        <div class="container">
             <div class="header-logo">
                 <a href="#">
                     <figure>
@@ -58,7 +58,7 @@
         </div> 
         <div class="portfolio">   
             <div class="portfolio-wrap">
-                <div class="portfolio-conteinar"> 
+                <div class="portfolio-container"> 
                     <section class="portfolio-header">
                       <h1 class="title">Our portfolio</h1> 
                       <p class="citation">Proin iaculis purus consequat sem cure.</p>
@@ -104,35 +104,35 @@
                     <h1 class="title">About us</h1> 
                     <p class="citation">Proin iaculis purus consequat sem cure.</p>
                 </section>      
-                <section class="about-content1">
-                    <div class="about-content__text1">
+                <section class="about-left">
+                    <div class="about-left__text">
                         <h3>JULY 2010 <br> Our Humble Beginnings</h3>
                         <p>Proin iaculis purus consequat sem cure digni sim. Donec porttitora entum suscipit aenean ihoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni sim.</p>
                     </div>
-                    <div class="about-content__img1"><img src="./img/about.png" alt=""></div>                    
+                    <div class="about-left__img"><img src="./img/about.png" alt=""></div>                    
                 </section>
-                <section class="about-content2">
-                    <div class="about-content__text2">
+                <section class="about-right">
+                    <div class="about-right__text">
                         <h3>JULY 2010 <br> Our Humble Beginnings</h3>
                         <p>Proin iaculis purus consequat sem cure digni sim. Donec porttitora entum suscipit aenean ihoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni sim.</p>
                     </div>
-                    <div class="about-content__img2"><img src="./img/about.png" alt=""></div>                    
+                    <div class="about-right__img"><img src="./img/about.png" alt=""></div>                    
                </section>
-               <section class="about-content1">
-                    <div class="about-content__text1">
+               <section class="about-left">
+                    <div class="about-left__text">
                         <h3>JULY 2010 <br> Our Humble Beginnings</h3>
                         <p>Proin iaculis purus consequat sem cure digni sim. Donec porttitora entum suscipit aenean ihoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni sim.</p>
                     </div>
-                    <div class="about-content__img1"><img src="./img/about.png" alt=""></div>                    
+                    <div class="about-left__img"><img src="./img/about.png" alt=""></div>                    
                 </section>
-                <section class="about-content2">
-                    <div class="about-content__text2">
+                <section class="about-right">
+                    <div class="about-right__text">
                         <h3>JULY 2010 <br> Our Humble Beginnings</h3>
                         <p>Proin iaculis purus consequat sem cure digni sim. Donec porttitora entum suscipit aenean ihoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni sim.</p>
                     </div>
-                    <div class="about-content__img2"><img src="./img/about.png" alt=""></div>                    
+                    <div class="about-right__img"><img src="./img/about.png" alt=""></div>                    
                </section>
-               <div class="about-content__img"><img src="./img/about.png" alt=""></div> 
+               <div class="about__img"><img src="./img/about.png" alt=""></div> 
             </div>              
         </div>
         <div class="team">
@@ -142,7 +142,7 @@
                   <p class="citation">Proin iaculis purus consequat sem cure.</p>
                 </section> 
 
-                <div class="team-conteinar">
+                <div class="team-container">                
                     <figure class="team-item">
                       <p class="team-item__img"><img src="./img/me.png" alt=""  /></p>
                       <figcaption class="team-item__name">Vasiliy Polyakov</figcaption>
@@ -175,34 +175,47 @@
         </div>
         <div class="contact">
             <div class="contact-wrap">
-                <div class="contact-conteinar">
+                <div class="contact-container">
                     <section class="contact-header">
                       <h1 class="contact-header__title">Contact us</h1> 
                       <p class="contact-header__citation">Proin iaculis purus consequat sem cure.</p>
                     </section> 
                     <section class='contacts'>
                         <form class='contacts-form' action="#" method='GET'>
-
-                            <div class="left">
-                                <label for="first-name"><input class='contacts-form__information' type="text" id='first-name'    name='first-name' > 
-                                </label><br>  
-                                <label for="E-mail"><input class='contacts-form__information' type="text" id='E-mail' name='E-mail'>
-                                </label><br>  
-                                <label for="E-mail"><input class='contacts-form__information' type="text" id='E-mail' name='E-mail'>
-                                </label><br>     
+                            <div class="contacts-form__wrap">
+                                <div class="contacts-form__left">
+                                   <input class='contacts-form__information' type="text" placeholder='  YOUR NAME*'><br>  
+                                   <input class='contacts-form__information' type="text" placeholder='  YOUR E-MAIL*'><br>  
+                                   <input class='contacts-form__information' type="text" placeholder='  SUBJECT'><br>     
+                                </div>
+                                <div class="contacts-form__right">                            
+                                   <textarea class='contacts-form__message' placeholder=' YOUR MESSAGE*' cols="30" rows="10"></textarea>                       
+                                </div>                    
                             </div>
-                            <div class="right">                            
-                                <label for="comments"><textarea class='contacts-form__comments' name="comments" id="comments" cols="    30" rows="10"></textarea>
-                                </label>                        
-                            </div>
-                               
+                           <div class="contacts-form__button">
+                               <button class="contacts-form__button-send" type="button"><b>Send message</b></button>
+                           </div> 
 
                         </form>
                     </section>             
                 </div>                
             </div>
-        </div>
-    </article>  	
+        </div>       
+    </article>
+    <footer>
+        <div class="footer-wrap">
+
+            <div class="footer-wrap__text">
+               <p>© Copyrigh 2014 FreebiesXpress.com</p>
+            </div>                
+            <figure class="footer-wrap__img">
+                  <a href=""><img src="./img/twitter.png"/></a>
+                  <a href=""><img src="./img/fb.png"/></a>
+                  <a href=""><img src="./img/p.png"/></a>
+                  <a href=""><img src="./img/g+.png"/></a>                                               
+            </figure>       
+        </div>         
+    </footer>  	
 </body>
 </html>
 
