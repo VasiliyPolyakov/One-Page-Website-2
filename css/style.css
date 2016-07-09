@@ -79,6 +79,10 @@ body {
 	word-spacing: 40px;
 }
 
+.header-logo__img img {
+		position: absolute;
+	}
+
 /* header nav*/
 
 .header-nav li {
@@ -495,3 +499,30 @@ body {
 .footer-wrap__img img {
 	padding-right: 4px;
 }
+
+
+/* media queris */
+
+@media screen and (max-width: 780px) {
+
+	.service-wrap {
+	   flex-direction: column;
+    }
+
+    .service-wrap__item {
+    	padding-top: 22px;
+    }
+
+    .team-container {
+    	flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 780px) {
+	
+    .service-wrap__item {
+    	padding-top: 22px;
+    }
+}
+
