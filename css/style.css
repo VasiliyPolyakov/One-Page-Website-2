@@ -63,7 +63,7 @@ body {
 }
 
 .wrapper {	
-	width: 100%;
+	max-width: 100%;
 	background: url(../img/Home.png) no-repeat center bottom;
 	height: 700px;
 	position: relative;
@@ -81,7 +81,7 @@ body {
 
 .header-logo__img img {
 		position: absolute;
-	}
+}
 
 /* header nav*/
 
@@ -526,3 +526,9 @@ body {
     }
 }
 
+@media screen and (min-width: 1155px) {
+	
+    body {
+    	position: absolute;
+    }
+}
